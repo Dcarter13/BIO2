@@ -25,12 +25,9 @@ var getAllRecords = function() {
   );
 };
 
-
-
-
-
-
-
+var listView = function(id, image, damage, startup) {
+  return `
+   <p>${image}5
 var id = getParameterByName("id");
 if (id) {
   getOneRecord(id);
